@@ -11,6 +11,8 @@ var parseInline = (line, style) => {
       // ignore horizontal rule
       if (line === '***') return false
 
+      // TODO(kyle): this is not the way to do this.
+      // Regex is needed to do proper selections.
       words = line.split(' ')
 
       return words.map((chars, index) => {
