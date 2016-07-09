@@ -1,28 +1,16 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "fancyconsole",
+  "version": "0.0.1",
+  "description": "Render markdown in the browser console (somewhat)",
   "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "prototype"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
-  }
+  "author": "Kyle Parisi (http://blog.kyleparisi.com)",
+  "license": "ISC"
 }
